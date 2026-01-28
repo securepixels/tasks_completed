@@ -34,8 +34,6 @@ Infrastructure as Code to deploy all required AWS resources with least privilege
 cd terraform
 terraform init
 terraform validate
-terraform plan
-terraform apply
 ```
 
 ## Screen Recordings
