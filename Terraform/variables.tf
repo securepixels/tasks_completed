@@ -10,7 +10,9 @@ variable "ami_id" {
     default     = "ami-05ccb159cbfafe1f"
 }
 
-variable "instance_type"
+variable "instance_type" {
 description = "EC2 instance type"
 type        = string
 default     = t2.micro
+
+}
